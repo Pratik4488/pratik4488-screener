@@ -1,0 +1,22 @@
+[
+  "pratik":[
+    {
+      "role": "Super Admin",
+      "msg:": "Hi how are you ?"
+    },
+    {
+      "role": "Admin",
+      "msg:": "Who are you ?"
+    },
+  ],
+  "myp":[
+    {
+      "role": "Super Admin",
+      "msg:": "Hi how are you ?"
+    },
+    {
+      "role": "Admin",
+      "msg:": "Who are you ?"
+    },
+  ]
+]
