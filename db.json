@@ -2,7 +2,52 @@
   "screener": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+  "id": "65193f062911d62cb431c31a",
+  "studyId": "6517ec4c6f05a59bb089846d",
+  "screener": [
+    {
+      "question": "What is your age group?",
+      "description": "Select your age group.",
+      "questionType": "Single choice",
+      "isRequired": true,
+      "options": [
+        {"value": "0-15" , "isCorrect": false},
+        {"value": "16-30", "isCorrect": true },
+        {"value": "30+"  , "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Which of the following brands you have used earlier?",
+      "description": "d2",
+      "questionType": "Multiple choice",
+      "isRequired": false,
+      "options": [
+        {"value": "Sony"   , "isCorrect": false},
+        {"value": "Samsung", "isCorrect": false},
+        {"value": "Mivi"   , "isCorrect": false}
+      ]
+    },
+    {
+      "question": "What is your current address ?",
+      "description": "d3",
+      "questionType": "Short Answer",
+      "isRequired": false,
+      "options": []
+    },
+    {
+      "question": "what phone do you use?",
+      "description": "",
+      "questionType": "Single choice",
+      "isRequired": false,
+      "options": [
+        {"value": "Iphone" , "isCorrect": false},
+        {"value": "Android", "isCorrect": true }
+      ]
+    }
+  ]
+}
+
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
