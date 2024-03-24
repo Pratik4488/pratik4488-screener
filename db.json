@@ -1,117 +1,99 @@
-[
-    {
+{
     "screener": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      {
-    "id": "65193f062911d62cb431c31a",
-    "study": [
-      {
-        "name": "Study name",
-        "description": "This is the first study",
-        "studyId": "6517ec4c6f05a59bb089846d"
-      }
-    ],
-    "screener": [
-      {
-        "question": "What is your age group?",
-        "description": "Select your age group.",
-        "questionType": "Single choice",
-        "isRequired": true,
-        "options": [
-          {"value": "0-15" , "isCorrect": false},
-          {"value": "16-30", "isCorrect": false },
-          {"value": "30+"  , "isCorrect": false}
-        ]
-      },
-      {
-        "question": "Which of the following brands you have used earlier?",
-        "description": "Select the brands",
-        "questionType": "Multiple choice",
-        "isRequired": true,
-        "options": [
-          {"value": "Sony"   , "isCorrect": false},
-          {"value": "Samsung", "isCorrect": false},
-          {"value": "Mivi"   , "isCorrect": false}
-        ]
-      },
-      {
-        "question": "What is your current address ?",
-        "description": "Write your current address",
-        "questionType": "Short Answer",
-        "isRequired": true,
-        "options": []
-      },
-      {
-        "question": "what phone do you use?",
-        "description": "",
-        "questionType": "Single choice",
-        "isRequired": false,
-        "options": [
-          {"value": "Iphone" , "isCorrect": false},
-          {"value": "Android", "isCorrect": true }
-        ]
-      }
-    ]
-  }
-  
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ]
-  },
-  {
-    "screener": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      {
-    "id": "65193f062911d62cb431c31a",
-    "study": [
-      {
-        "name": "Study name",
-        "description": "This is the second study",
-        "studyId": "6517ec4c6f05a59bb089846d"
-      }
-    ],
-    "screener": [
-      {
-        "question": "How many members are there in your family",
-        "description": "Select the number of members in your family",
-        "questionType": "Single choice",
-        "isRequired": true,
-        "options": [
-          {"value": "2" , "isCorrect": false},
-          {"value": "5", "isCorrect": false },
-          {"value": "1"  , "isCorrect": false}
-        ]
-      },
-      {
-        "question": "Which cities from the following you have travelled to?",
-        "description": "Select the cities",
-        "questionType": "Multiple choice",
-        "isRequired": true,
-        "options": [
-          {"value": "Bangalore"   , "isCorrect": false},
-          {"value": "Bhubaneswar", "isCorrect": false},
-          {"value": "Hyderabad"   , "isCorrect": false}
-        ]
-      },
-      {
-        "question": "What's your college name?",
-        "description": "Write your college name",
-        "questionType": "Short Answer",
-        "isRequired": true,
-        "options": []
-      }
-    ]
-  }
-  
+        {
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": "65193f062911d62cb431c31a",
+            "study": [
+                {
+                    "name": "Study name",
+                    "description": "This is the first study",
+                    "studyId": "6517ec4c6f05a59bb089846d"
+                }
+            ],
+            "screener": [
+                {
+                    "question": "What is your age group?",
+                    "description": "Select your age group.",
+                    "questionType": "Single choice",
+                    "isRequired": true,
+                    "options": [
+                        {
+                            "value": "0-15",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "16-30",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "30+",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following brands you have used earlier?",
+                    "description": "Select the brands",
+                    "questionType": "Multiple choice",
+                    "isRequired": true,
+                    "options": [
+                        {
+                            "value": "Sony",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Samsung",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Mivi",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is your current address ?",
+                    "description": "Write your current address",
+                    "questionType": "Short Answer",
+                    "isRequired": true,
+                    "options": []
+                },
+                {
+                    "question": "what phone do you use?",
+                    "description": "",
+                    "questionType": "Single choice",
+                    "isRequired": false,
+                    "options": [
+                        {
+                            "value": "Iphone",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Android",
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        }
     ],
     "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
     ]
-  }
-]
-  
+}
