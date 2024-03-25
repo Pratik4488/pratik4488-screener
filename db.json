@@ -1,22 +1,146 @@
 {
-    "screener": [
-        {
-            "id": 1,
-            "title": "Post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2"
-        },
+    "screenerlist": [
         {
             "id": "65193f062911d62cb431c31a",
-            "study": [
+            "studyId":"6517ec4c6f05a59bb089846d",
+            "screener": [
                 {
-                    "name": "Study name",
-                    "description": "This is the first study",
-                    "studyId": "6517ec4c6f05a59bb089846d"
+                    "question": "What is your age group?",
+                    "description": "Select your age group.",
+                    "questionType": "Single choice",
+                    "isRequired": true,
+                    "options": [
+                        {
+                            "value": "0-15",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "16-30",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "30+",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following brands you have used earlier?",
+                    "description": "Select the brands",
+                    "questionType": "Multiple choice",
+                    "isRequired": true,
+                    "options": [
+                        {
+                            "value": "Sony",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Samsung",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Mivi",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is your current address ?",
+                    "description": "Write your current address",
+                    "questionType": "Short Answer",
+                    "isRequired": true,
+                    "options": []
+                },
+                {
+                    "question": "what phone do you use?",
+                    "description": "",
+                    "questionType": "Single choice",
+                    "isRequired": false,
+                    "options": [
+                        {
+                            "value": "Iphone",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Android",
+                            "isCorrect": true
+                        }
+                    ]
                 }
-            ],
+            ]
+        },
+        {
+            "id": "65193f062911d62bb431c352g",
+            "studyId": "6517ec4c6f05a59bb08879ds7",
+            "screener": [
+                {
+                    "question": "What is your age group?",
+                    "description": "Select your age group.",
+                    "questionType": "Single choice",
+                    "isRequired": true,
+                    "options": [
+                        {
+                            "value": "0-15",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "16-30",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "30+",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following brands you have used earlier?",
+                    "description": "Select the brands",
+                    "questionType": "Multiple choice",
+                    "isRequired": true,
+                    "options": [
+                        {
+                            "value": "Sony",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Samsung",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Mivi",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is your current address ?",
+                    "description": "Write your current address",
+                    "questionType": "Short Answer",
+                    "isRequired": true,
+                    "options": []
+                },
+                {
+                    "question": "what phone do you use?",
+                    "description": "",
+                    "questionType": "Single choice",
+                    "isRequired": false,
+                    "options": [
+                        {
+                            "value": "Iphone",
+                            "isCorrect": false
+                        },
+                        {
+                            "value": "Android",
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "65193f062911d62cb43dfa43et",
+            "studyId": "6517ec4c6f05a59bb09d8a0f8sd",
             "screener": [
                 {
                     "question": "What is your age group?",
@@ -94,6 +218,26 @@
             "id": 2,
             "body": "some comment",
             "postId": 1
+        }
+    ],
+    "study":[
+        {
+            "id": "6517ec4c6f05a59bb089846d",
+            "name": "Study 101",
+            "description": "This is the sample study description for Study 101",
+            "screenerId": "65193f062911d62cb431c31a"
+        },
+        {
+            "id": "6517ec4c6f05a59bb08879ds7",
+            "name": "Study 102",
+            "description": "This is the sample study description for Study 102",
+            "screenerId": "65193f062911d62bb431c352g"
+        },
+        {
+            "id": "6517ec4c6f05a59bb09d8a0f8sd",
+            "name": "Study 103",
+            "description": "This is the sample study description for Study 103",
+            "screenerId": "65193f062911d62cb43dfa43et"
         }
     ]
 }
